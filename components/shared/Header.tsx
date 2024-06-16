@@ -1,6 +1,7 @@
 import React from 'react'
 
 const HeaderPage = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
       <footer className="bg-white">
